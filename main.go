@@ -49,12 +49,12 @@ func main() {
 
 	balls := []*Ball{}
 
-	for len(balls) < 25 {
+	for len(balls) < 100 {
 		size := rand.Intn(10) + 10
 		x := rand.Float64() * width
 		y := rand.Float64() * height
-		velX := float64(rand.Intn(20)) -20
-		velY := float64(rand.Intn(20)) -20
+		velX := float64(rand.Intn(5)) -5
+		velY := float64(rand.Intn(5)) -5
 		r := rand.Intn(255)
 		g := rand.Intn(255)
 		b := rand.Intn(255)
