@@ -9,9 +9,9 @@
 
 <body>
   <script type="module">
-    import init from './rust/pkg/rust.js';
+    import init from './rust/rust.js';
     async function run() {
-      let wasm = await init('./rust/pkg/rust_bg.wasm');
+      let wasm = await init('./rust/rust_bg.wasm');
     }
     run();
   </script>
